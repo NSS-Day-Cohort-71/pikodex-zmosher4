@@ -1,50 +1,78 @@
+body {
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=eb1356&c2=10609a&gt=l&gd=dtl
+*/
+  background: #eb1356;
+  background: linear-gradient(135deg, #eb1356, #10609a);
+}
 #title {
-    text-align: center;
-    font-family: copperplate;
-    font-size: 5em;
-    margin-top: 1rem;
+  text-align: center;
+  font-family: copperplate;
+  font-size: 5em;
+  margin-top: 1rem;
+  color: yellow;
 }
 
 #container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .piko-card {
-    flex-basis: 25%;
-    margin: 3em;
+  background: #483ad5;
+  background: linear-gradient(135deg, #483ad5, #899cbf);
+  width: 29%;
+  border: 1px solid gray;
+  padding-left: 0;
+  padding-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
-
+.piko-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  cursor: grab;
+}
 .piko-img {
-    width: 100%;
-    border-radius: 1em;
+  width: 200px;
+  border-radius: 1em;
 }
 
 .piko-info {
-    padding-left: 1.25rem;
+  list-style: none;
 }
 
 .info-text {
-    font-family: monospace;
-    font-size: 1rem;
+  font-family: monospace;
+  font-size: 1rem;
+  color: yellow;
 }
 
 .piko-name {
-    font-family: "copperplate", fantasy;
-    font-size: 1.5em;
+  font-family: 'copperplate', fantasy;
+  font-size: 1.5em;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .piko-abilities {
-
 }
 
 .piko-category {
-
 }
 
 .piko-weakness {
-
 }
